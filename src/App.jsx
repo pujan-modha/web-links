@@ -17,7 +17,8 @@ function App() {
               </div>
               <div className='flex flex-col w-full mx-auto my-auto'>
                   {linksData.map((links, id) => (
-                  <button key={id} className='my-[2.5%] relative inline-flex w-full items-center justify-center rounded-full bg-purple px-8 py-6 font-medium border-2 border-foreground hover:text-purple hover:bg-current-line hover:border-purple'>
+                  <a href={links.redirectURL} target='_noref'
+                      key={id} className='my-[2.5%] relative inline-flex w-full items-center justify-center rounded-full bg-purple px-8 py-6 font-medium border-2 border-foreground hover:text-purple hover:bg-current-line hover:border-purple'>
                       <div className='absolute left-2.5'>
                           <FontAwesomeIcon icon={links.fontAwesomeIcon} size='2xl'/>
                       </div>
@@ -27,7 +28,7 @@ function App() {
                       <div className='absolute right-2.5'>
                           <FontAwesomeIcon icon={faArrowRight} size='2xl'/>
                       </div>
-                  </button>
+                  </a>
                   ))}
               </div>
               <div className='flex flex-col mt-[5%] mb-[1%]'>
