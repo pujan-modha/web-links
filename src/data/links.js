@@ -23,6 +23,6 @@ export const linksData = [
     {
         fontAwesomeIcon: "fa-brands fa-x-twitter",
         linkText: "Twitter",
-        redirectURL: "https://x.com/pujan-modha",
+        redirectURL: "https://x.com/pujan_modha",
     },
 ]
