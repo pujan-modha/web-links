@@ -13,7 +13,9 @@ function App() {
               </div>
               <div className='text-center mb-[10%]'>
                   <h1 className='text-3xl font-bold text-purple'>Pujan Modha</h1>
-                  <p className='text-lg'>Full Stack && Computer Science Major</p>
+                  <p className='text-lg'>Full Stack</p>
+                  <p className='text-lg'>&&</p>
+                  <p className='text-lg'>Computer Science Major</p>
               </div>
               <div className='flex flex-col w-full mx-auto my-auto'>
                   {linksData.map((links, id) => (
